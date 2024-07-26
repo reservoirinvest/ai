@@ -1,0 +1,24 @@
+[project]
+name = "ai"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "reservoirinvest", email = "reservoirinvest@gmail.com"},
+]
+dependencies = []
+requires-python = ">3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm]
+distribution = false
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pandas>=2.2.2",
+    "jupyterlab>=3.5",
+    "scikit-learn>=1.2",
+    "plotly>=5.23.0",
+    "torch>=2.4.0",
+    "transformers>=4.43.2",
+]
